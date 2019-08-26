@@ -25,7 +25,7 @@ public:
   }
 
 protected:
-  int _life;
+  int _life; //生命值，吃食物可以補充生命，做動作會減少壽命
   string _name;
 };
 

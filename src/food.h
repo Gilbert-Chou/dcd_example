@@ -1,5 +1,5 @@
 #ifndef FOOD_H
-#define  FOOD_H
+#define FOOD_H
 #include <string>
 #include <iostream>
 using namespace std;
@@ -21,7 +21,7 @@ public:
 
 private:
   string _foodName;
-  int _lifePoint; //It can increase the life of an animal
+  int _lifePoint; //增加生命值的數值大小
 };
 
 #endif
